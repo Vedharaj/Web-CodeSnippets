@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #7b2cbf;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tab{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    background-color: #dddddd;
+    border: 2px solid #fff;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+}
+
+.btn{
+    padding: 0px 20px;
+    height: 100%;
+    font-size: 1.1em;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #7b2cbf;
+}
+
+.tabcontent{
+    display: none;
+    width: 80%;
+    background-color: #dddddd;
+    border-radius: 0 0 10px 10px;
+    padding: 0 10px;
+}
+
+.tabcontent > h3{
+    color: #7b2cbf;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.unhide{
+    display: block;
+}
+
+.active{
+    background-color: #fff;
+    color: #7b2cbf;
+}

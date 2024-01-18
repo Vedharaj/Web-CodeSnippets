@@ -1,0 +1,55 @@
+body, html{
+    margin: 0;
+    padding: 0;
+  }
+  
+body{
+    height: 100vh;
+    background-color: #dddddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    background-color: #ffafcc;
+}
+
+.handler{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 25px;
+    transition: .8s ease;
+    position: relative;
+}
+
+.plus{
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    background-color: red;
+    transition: .3s;
+}
+
+.overlay-1, .overlay-2, .overlay-3{
+    z-index: 9;
+    width: 2px;
+    height: 20px;
+    margin: -9px 8px;
+}
+
+.para-1, .para-2, .para-3{
+    padding: 10px;
+    width: 100%;
+    background-color:#fff;
+}
+
+.hide{
+    display: none;
+}

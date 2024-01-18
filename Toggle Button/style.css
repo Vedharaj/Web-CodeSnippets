@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #040b23;
+}
+#switch{visibility: hidden;}
+label {
+cursor: pointer;
+text-indent: -2000px;
+width: 400px;
+height: 200px;
+background: grey;
+border-radius:200px;
+position: relative;
+}
+label:after {
+content: '';
+position: absolute;
+top: 10px;
+left: 10px;
+width: 180px;
+height: 180px;
+background: white;
+border-radius: 90px;
+transition: 0.4s;
+}
+input:checked+label{ 
+  background: #64CCC5;
+}
+input:checked+
+label:after {
+Left: calc(100% - 5px);
+transform:
+translateX(-100%);
+}

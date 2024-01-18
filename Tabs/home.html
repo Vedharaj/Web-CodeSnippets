@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="tab">
+      <div class="btn active" onclick="toggleClass(this, 'London')">
+        <p class="city-name">London</p>
+      </div>
+      <div class="btn" onclick="toggleClass(this, 'Paris')">
+        <p class="city-name">Paris</p>
+      </div>
+      <div class="btn" onclick="toggleClass(this, 'Tokyo')">
+        <p class="city-name">Tokyo</p>
+      </div>
+    </div>
+    <div id="London" class="tabcontent unhide">
+      <h3>London</h3>
+      <p>London is the capital city of England.</p>
+    </div>
+    <div id="Paris" class="tabcontent">
+      <h3>Paris</h3>
+      <p>Paris is the capital of France.</p> 
+    </div>
+    <div id="Tokyo" class="tabcontent">
+      <h3>Tokyo</h3>
+      <p>Tokyo is the capital of Japan.</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
