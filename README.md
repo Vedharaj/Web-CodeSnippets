@@ -9,3 +9,4 @@ Code Snippets for HTML, CSS and Javascripts
 5. Tabs [view here](https://codepen.io/vedharaj/full/qBvmbNq)
 6. Toggle Button [view here](https://codepen.io/vedharaj/full/XWywdmp)
 7. Tab Header [view here](https://codepen.io/vedharaj/full/gOEWBZO)
+8. Search Menu [view here](https://codepen.io/vedharaj/full/jOJwWgg)
