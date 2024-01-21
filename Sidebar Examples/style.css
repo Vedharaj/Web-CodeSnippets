@@ -1,69 +1,69 @@
-    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-    *{
-        box-sizing: border-box;
-    }
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+}
 
-    body, html{
-        margin: 0;
-        padding: 0;
-    }
+body, html{
+    margin: 0;
+    padding: 0;
+}
 
-    body{
-        font-family: 'Lato', "san-serif";
-        display: grid;
-        grid-template-columns: 250px auto;
-        overflow: hidden;
-    }
+body{
+    font-family: 'Lato', "san-serif";
+    display: grid;
+    grid-template-columns: 250px auto;
+    overflow: hidden;
+}
 
 
-    .sidebar{
-        height: 100%;
-        width: 250px;
-        color: #fff;
-        background-color: #111;
-        padding: 10px;
-        transition: 1s;
-    }
+.sidebar{
+    height: 100vh;
+    width: 250px;
+    color: #fff;
+    background-color: #111;
+    padding: 10px;
+    transition: 1s;
+}
 
-    .overlay-nav{
-        position: absolute;
-        top: 0;
-    }
+.overlay-nav{
+    position: absolute;
+    top: 0;
+}
 
-    .hide{
-        display: none;
-    }
+.hide{
+    display: none;
+}
 
-    .sidebar > h2{
-        text-align: center;
-        display: inline;
-    }
+.sidebar > h2{
+    text-align: center;
+    display: inline;
+}
 
-    .sidebar > a{
-        margin-left: 80px;
-        font-size: 2em;
-        text-decoration: none;
-        color: #818181;
-    }
+.sidebar > a{
+    margin-left: 80px;
+    font-size: 2em;
+    text-decoration: none;
+    color: #818181;
+}
 
-    ul{
-        margin-left: 30px;
-        margin-top: 0;
-        list-style: none;
-    }
+ul{
+    margin-left: 30px;
+    margin-top: 0;
+    list-style: none;
+}
 
-    ul > li{
-        color: #ddd;
-        margin-top: 15px;
-        transition: all ease .4s;
-    }
+ul > li{
+    color: #ddd;
+    margin-top: 15px;
+    transition: all ease .4s;
+}
 
-    ul > li:hover{
-        font-size: 1.1em;
-        color: #fff;
-    }
+ul > li:hover{
+    font-size: 1.1em;
+    color: #fff;
+}
 
-    div:nth-child(2){
-        width: 100%;
-        margin-left: 20px;
-    }
+div:nth-child(2){
+    width: 100%;
+    margin-left: 20px;
+}
