@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidebar hide">
+        <h2>Side bar</h2>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <ul>
+            <li>About</li>
+            <li>Service</li>
+            <li>Contact</li>
+            <li>Categories</li>
+        </ul>
+    </div>
+    <div>
+        <h2>Sidenav Example</h2>
+        <p>Click on the element below to open the side navigation menu.</p>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; push open</span><br />
+        <span style="font-size:30px;cursor:pointer" onclick="overlayNav()">&#9776; overlay open</span><br />
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
