@@ -10,5 +10,6 @@ Code Snippets for HTML, CSS and Javascripts
 6. Toggle Button [view here](https://codepen.io/vedharaj/full/XWywdmp)
 7. Tab Header [view here](https://codepen.io/vedharaj/full/gOEWBZO)
 8. Search Menu [view here](https://codepen.io/vedharaj/full/jOJwWgg)
-8. Sidebar Example [view here](https://codepen.io/vedharaj/full/gOERXjw)
-9. Hover Sidebar Button [view here](https://codepen.io/vedharaj/full/RwdZMwv)
+9. Sidebar Example [view here](https://codepen.io/vedharaj/full/gOERXjw)
+10. Hover Sidebar Button [view here](https://codepen.io/vedharaj/full/RwdZMwv)
+11. Bottom Navbar [view here](https://codepen.io/vedharaj/full/bGZYzQm)
