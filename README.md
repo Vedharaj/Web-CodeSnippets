@@ -14,3 +14,4 @@ Code Snippets for HTML, CSS and Javascripts
 10. Hover Sidebar Button [view here](https://codepen.io/vedharaj/full/RwdZMwv)
 11. Bottom Navbar [view here](https://codepen.io/vedharaj/full/bGZYzQm)
 12. Border Nav Link [view here](https://codepen.io/vedharaj/full/GReyBox)
+13. Fixed Menu [view here](https://codepen.io/vedharaj/full/wvOygGx)
